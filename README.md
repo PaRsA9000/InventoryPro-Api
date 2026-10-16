@@ -36,10 +36,9 @@ Clone the repo and run the API:
 git clone https://github.com/PaRsA9000/InventoryPro-Api.git
 cd InventoryPro-Api/Api
 dotnet run
-
+```
 Access Swagger UI at:
-
-http://localhost:5255/swagger
+`http://localhost:5255/swagger`
 
 ---
 
@@ -51,14 +50,3 @@ http://localhost:5255/swagger
 | `POST` | `/api/Products` | Create a new product entry |
 | `GET` | `/api/Orders` | Retrieve all placed orders |
 | `POST` | `/api/Orders` | Place order & automatically deduct product stock |
-
-
----
-
-### قدم ۲: پوش کردن به گیت‌هاب
-توی همون مسیر CMD، این ۳ تا دستور رو به ترتیب بزن:
-
-```bash
-git add README.md
-git commit -m "docs: add comprehensive README"
-git -c credential.helper= push https://PaRsA9000@github.com/PaRsA9000/InventoryPro-Api.git main
